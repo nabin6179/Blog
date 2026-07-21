@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://blog.tiwarinabin.com.np/sitemap.xml
