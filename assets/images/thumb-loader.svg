@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0883e" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0.12"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1e2733" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="480" height="270" fill="#10151f"/>
+  <rect width="480" height="270" fill="url(#grid)"/>
+  <rect width="480" height="270" fill="url(#g)"/>
+  <circle cx="60" cy="54" r="3" fill="#f0883e"/>
+  <circle cx="76" cy="54" r="3" fill="#a78bfa" opacity="0.6"/>
+  <text x="40" y="230" font-family="JetBrains Mono, monospace" font-size="13" fill="#5c6a7d" letter-spacing="1">// Malware Analysis</text>
+  <text x="40" y="150" font-family="Space Grotesk, sans-serif" font-size="26" fill="#e6edf3" font-weight="700">Malware Analysis</text>
+  <rect x="40" y="164" width="64" height="2" fill="#f0883e"/>
+</svg>
