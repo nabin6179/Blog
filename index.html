@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nabin Tiwari — Cybersecurity Blog</title>
+  <meta name="description" content="Cybersecurity write-ups and walkthroughs by Nabin Tiwari: network forensics, DFIR, malware analysis, and platform CTFs.">
+  <link rel="icon" href="data:,">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <!-- ============================= NAVBAR ============================= -->
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="brand"><span class="dot"></span>Nabin Tiwari</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="https://tiwarinabin.com.np" target="_blank" rel="noopener">Portfolio</a></li>
+        <li><a href="https://github.com/tiwarinabin" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============================= HERO ============================= -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-eyebrow">// whoami</div>
+        <h1>Nabin Tiwari <span>— Cybersecurity Blog</span></h1>
+        <p class="hero-sub">
+          I'm a Computer Science student focused on network security and cybersecurity.
+          This is where I publish walkthroughs and write-ups from CTF platforms, personal labs,
+          and forensic investigations — documented the way I'd want to hand them to a teammate.
+        </p>
+        <div class="hero-actions">
+          <a href="#articles" class="btn btn-primary">Read Articles</a>
+          <a href="https://tiwarinabin.com.np" target="_blank" rel="noopener" class="btn btn-outline">View Portfolio</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================= ARTICLES =========================== -->
+    <section class="section" id="articles">
+      <div class="container">
+        <h2 class="section-title">Articles &amp; Walkthroughs</h2>
+
+        <div class="article-grid">
+
+          <!-- ============================================================
+               ARTICLE CARD — copy this whole <article> block to add a new
+               walkthrough. Update the href, title, description, and the
+               five meta fields. That's the only homepage edit required.
+               ============================================================ -->
+          <article class="article-card">
+            <div class="card-meta-top">
+              <span class="card-tag">Network Forensics</span>
+              <span class="card-platform">BlueTeamLabs Online</span>
+            </div>
+            <h3>Network Analysis: Web Shell</h3>
+            <p class="desc">Full packet capture triage of a compromised web server: isolating the web shell upload, tracing the attacker's follow-on commands, and rebuilding the timeline from raw PCAP.</p>
+            <div class="card-meta-bottom">
+              <span class="difficulty medium">Medium · 14 min</span>
+              <span>Jun 18, 2026</span>
+            </div>
+            <a href="articles/network-analysis-web-shell/" class="btn btn-outline read-btn">Read Article →</a>
+          </article>
+
+          <!-- Add the next <article class="article-card">...</article> block here -->
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================= ABOUT ============================= -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <p>
+          I'm a Computer Science student specializing in Network Technology and Cybersecurity,
+          currently working toward entry-level roles such as SOC Analyst, Cybersecurity Analyst,
+          and Network Security Engineer — with a particular interest in international internship
+          opportunities. This blog is where I document what I learn: methodology, dead ends, and
+          the evidence behind each write-up, not just the final answer.
+        </p>
+        <div class="tag-list">
+          <span class="tag-pill">Network Security</span>
+          <span class="tag-pill">DFIR</span>
+          <span class="tag-pill">SOC</span>
+          <span class="tag-pill">Penetration Testing</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================= FOOTER ============================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <ul class="footer-links">
+        <li><a href="https://github.com/tiwarinabin" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://linkedin.com/in/tiwarinabin" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://tiwarinabin.com.np" target="_blank" rel="noopener">Portfolio</a></li>
+      </ul>
+      <p class="footer-copy">&copy; <span data-year></span> Nabin Tiwari. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
